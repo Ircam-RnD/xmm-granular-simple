@@ -30,3 +30,6 @@ the system will assume you always send the same gesture. This might improve the
 model, which will be updated each time you send a new recording.
 - If you want to try another gesture, either click on the "RESET" button, or
 reload the page, then you can start recording / sending a new gesture.
+- In addition to the position control of the granular player from the estimated
+time progression of the gesture, the energy of the gesture controls the volume
+of the sound.
