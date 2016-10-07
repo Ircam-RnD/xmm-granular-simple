@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<title> GrML </title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+	<!-- https://github.com/wavesjs -->
+	<script type="text/javascript" src="js/waves-loaders.min.js"></script>
+	<script type="text/javascript" src="js/waves-audio.min.js"></script>
+	<!-- https://github.com/Ircam-RnD -->
+	<script type="text/javascript" src="js/xmm-client.min.js"></script>
+	<script type="text/javascript" src="js/motion-features.min.js"></script>
+
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<div>
+	<!-- ================ TOP =============== -->
+	<div id="top">
+		<h1>
+			Hello Waves / XMM !
+		</h1>
+		<div id="granularControl">
+			<div id="toggle">
+			  <button id="playBtn" class="xmmToggle"></button>
+			</div>
+			<div id="select">
+				<select name="select" class="xmmSelect"></select>
+			</div>
+		</div>
+		<button id="recBtn" class="xmmBtn">REC</button>
+		<button id="sendBtn" class="xmmBtn">SEND</button>
+		<button id="resetBtn" class="xmmBtn">RESET</button>
+	</div>
+
+	<!-- ================ MID =============== -->
+	<div id="middle">
+		<h2>
+			Time progression
+		</h2>
+		<canvas id="hhmmCanvas"></canvas>
+	</div>
+
+	<!-- ================ BOT =============== -->
+	<div id="bottom">
+	</div>
+
+</div>
+</body>
+</html>

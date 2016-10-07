@@ -1,0 +1,106 @@
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	color: #def;
+	background-color: #000;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+#middle {
+	/*background-color: #111;*/
+	border: 2px solid;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-color: #fff;
+	/*padding-top: 0px;*/
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	padding-left: 6px;
+}
+
+.xmmToggle, .xmmSelect, .xmmBtn {
+	border: 0px;
+	background-color: #def;
+	font-size: 1.5em;
+
+	height: 40px;
+	margin-bottom: 0.5em;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#toggle {
+	float: left;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+.xmmToggle {
+	text-align: center;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	padding: 4px;
+	/*box-model: border-box;*/
+	position: relative;
+}
+
+.xmmToggle:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	width: 0;
+	height: 0;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+	border-left: 28px solid black;
+	border-right: 0px solid transparent;
+}
+
+.xmmToggle.active:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: black;
+	top: 6px;
+	left: 6px;
+	width: 28px;
+	height: 28px;
+	border: 0px;
+}
+
+#select {
+	display: flex;
+}
+
+.xmmSelect {
+	width: 100%;
+}
+
+.xmmBtn {
+	width: 100%;
+}
+
+canvas {
+	width: 100%;
+	height: 100px;
+}
