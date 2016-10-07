@@ -1,16 +1,23 @@
 # xmm-granular-simple
 
-## simple example of a gesture follower controling a granular sample player.
+#### simple example of a gesture follower controling a granular sample player
 
 This project uses Node.js, the Wavesjs library and the XMM library to provide a
 minimal example that plays a sounds granularly, in sync with the estimated
 time progression of a gesture.
 
-## Instructions for use :
+## Instructions 
 
+#### Installation
+
+- Install Node.js version 0.12 or higher.
 - Open terminal, go to this folder and type `npm install` to install all the
 dependencies.
-- Then type `npm run start` to start the server.
+
+#### Use
+
+- From the terminal, type `npm run start` from the same folder to start the
+server.
 - Open your mobile's browser and go to `my.server.ip.address:8000`.
 - Click on the "REC" button to start recording a gesture, then click again to
 stop recording.
