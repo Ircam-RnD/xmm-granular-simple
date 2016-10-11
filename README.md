@@ -6,7 +6,7 @@ This project uses Node.js, the Wavesjs library and the XMM library to provide a
 minimal example that plays a sounds granularly, in sync with the estimated
 time progression of a gesture.
 
-## Instructions 
+## Instructions :
 
 ### Installation
 
